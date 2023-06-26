@@ -1,0 +1,19 @@
+{
+  "name": "primeiro-projeto",
+  "version": "1.0.0",
+  "description": "Primeiro projeto com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run --reporter mochawesome run --record --key 27c142b6-7731-43dc-a397-88986ebc1626",
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:test-api": "./node_modules/.bin/cypress run --reporter mochawesome run --record --key 27c142b6-7731-43dc-a397-88986ebc1626 --spec 'cypress/integration/ALURAPIC/api.spec.js'"
+  },
+  "author": "Pedrão",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.1"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}

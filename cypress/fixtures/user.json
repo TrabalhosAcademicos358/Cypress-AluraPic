@@ -1,0 +1,20 @@
+[
+    {
+        "email": "joao@example.com",
+        "userName": "joao_silva",
+        "fullName": "João da Silva",
+        "password": "senha123"
+    },
+    {
+        "email": "augusto@example.com",
+        "userName": "augusto_oliveira",
+        "fullName": "Augusto Oliveira",
+        "password": "senha456"
+    },
+    {
+        "email": "joana@example.com",
+        "userName": "joana_pereira",
+        "fullName": "Joana Pereira",
+        "password": "senha789"
+    }
+]
